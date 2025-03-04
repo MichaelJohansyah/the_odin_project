@@ -1,3 +1,3 @@
-# git_test
+# the_odin_project
 
-Hello Odin!
+Started this course on 07-02-25
