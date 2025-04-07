@@ -14,14 +14,36 @@
 // console.log(camelize("background-color"));
 
 // 2. Filter range
-let arr = [5, 3, 8, 1];
+// let arr = [5, 3, 8, 1];
+// let filtered = filterRange(arr, 1, 4);
 
-let filtered = filterRange(arr, 1, 4);
+// function filterRange(arr, a, b) {
+//     return arr.filter((item) => {
+//         if (item >= a && item <= b) {
+//             return item;
+//         }
+//     });
+// }
 
-alert( filtered ); // 3,1 (matching values)
+// alert(filtered); // 3,1 (matching values)
+// alert(arr); // 5,3,8,1 (not modified)
 
-alert( arr ); // 5,3,8,1 (not modified)
 // 3. Filter range "in place"
+// let arr = [5, 3, 8, 1];
+
+// filterRangeInPlace(arr, 1, 4); // removed the numbers except from 1 to 4
+
+// function filterRangeInPlace(arr, a, b){
+//     for(let i = 0; i < arr.length; i++){
+//         let item = arr[i];
+//         if (item < a || item > b){
+//             arr.splice(i, 1);
+//             i--;
+//         }
+//     }
+// }
+// alert( arr ); // [3, 1]
+
 // 4. Sort in decreasing order
 // 5. Copy and sort array
 // 6. Map to names
